@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: sql2314269
-    password: cP3%zX6*
-    url: jdbc:mysql://sql2.freesqldatabase.com:3306/sql2314269
+    username: postgres
+    password: 1
+    url: jdbc:postgresql://localhost:5432/aliaser-pro
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: create

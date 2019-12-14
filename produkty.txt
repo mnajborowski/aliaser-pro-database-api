@@ -1,0 +1,92 @@
+kurczaka:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj:
+wieprzowine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj:
+jagniecine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+wolowine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+konine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+cielecine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+drob:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+baranine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+dziczyzne:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+kozine:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+indyka:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz posiekaj sfiletuj usmaz dus sfaszeruj
+brokul:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj odparuj usmaz odcedz
+jarmuz:posiekaj pokroj dokroj dodaj potnij
+kalafior:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj odparuj
+kalarepe:ugotuj pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj usmaz
+kapuste:ugotuj pokroj poszatkuj potnij przekroj dokroj dodaj
+cebule:pokroj potnij przekroj dokroj dosyp nasyp dodaj posiekaj obierz
+czosnek:przekroj dodaj zgniec obierz wycisnac
+por:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj obierz
+szczypiorek:pokroj poszatkuj potnij przekroj dokroj dodaj posyp wsyp dosyp nasyp
+buraki:ugotuj pokroj potnij przekroj dodaj posiekaj zetrzyj utrzyj obierz
+pietruszke:pokroj poszatkuj potnij wsyp dosyp nasyp dodaj
+roszpunke:pokroj poszatkuj potnij wsyp dosyp nasyp dodaj
+rukiew:pokroj poszatkuj potnij wsyp dosyp nasyp dodaj
+salate:pokroj poszatkuj potnij przekroj dokroj dodaj  posiekaj obierz
+seler:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj usmaz zetrzyj obierz
+szpinak:ugotuj pokroj potnij przekroj dokroj dodaj
+rukole:pokroj poszatkuj potnij wsyp dosyp nasyp dodaj
+buraki:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj upiecz dodaj miksuj posiekaj usmaz obierz
+manioki:wyplucz ugotuj usmaz wysusz
+marchewki:ugotut pokroj poszatkuj potnij przekroj dokroj dodaj miksuj posiekaj obierz
+pasternaki:pokroj poszatkuj potnij wsyp dosyp nasyp dodaj usmaz ugotuj
+baklazan:ugotuj usmaz upiecz sfaszeruj pokroj potnij przekroj dodaj posiekaj
+papryke:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj usmaz sfaszeruj
+pomidory:ugotuj zagotuj pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj posiekaj usmaz zetrzyj utrzyj obierz sfaszeruj
+ziemniaki:ugotuj zagotuj pokroj potnij przekroj dodaj usmaz upiecz posol obierz
+dynie:ugotuj zagotuj pokroj poszatkuj wydraz przekroj dodaj posiekaj sfaszeruj
+melona:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj posiekaj obierz
+ogorka:pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj obierz
+ogorki:pokroj poszatkuj potnij przekroj dokroj dodaj posiekaj obierz
+arbuzy:pokroj potnij przekroj dokroj dodaj posiekaj zmiksuj
+rzodkiewki:pokroj poszatkuj potnij przekroj dokroj przesyp dodaj
+bob:ugotuj zagotuj wsyp dosyp nasyp przesyp dodaj zgniec
+fasole:ugotuj dodaj
+groch:ugotuj dodaj
+rabarbar:ugotuj zagotuj dodaj przekroj pokroj
+szczaw:dodaj zmiksuj posyp nasyp wsyp dosyp
+szparagi:ugotuj zagotuj obierz dodaj potnij przetnij pokroj przekroj
+chrzan:dodaj zmiksuj
+koperek:dodaj zmiksuj posyp nasyp wsyp dosyp
+majeranek:dodaj zmiksuj posyp nasyp wsyp dosyp
+kminek:dodaj wsyp dosyp nasyp przesyp posyp
+kapary:dodaj zmiksuj posyp nasyp wsyp dosyp
+karczoch:upiecz ugotuj zagotuj obierz dodaj usmaz
+kukurydze:obierz ugotuj zagotuj pokryj potnij przekroj dodaj
+oliwki:zmiazdz wsyp dosyp nasyp przesyp dodaj zmiksuj
+pieczarki:ugotuj zagotuj poszatkuj potnij przekroj dokroj dodaj obmyj wysusz
+borowiki:obmyj wysusz ugotuj potnij pokroj dodaj
+podgrzybki:obmyj wysusz ugotuj potnij pokroj dodaj
+brzoskwinie:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj
+gruszke:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj obierz zetrzyj natrzyj utrzyj
+jablka:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj obierz zetrzyj natrzyj utrzyj
+morele:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj
+morwe:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj
+orzechy:zgniec zmiazdz wsyp dosyp nasyp przesyp posyp dodaj
+sliwki:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj
+wisnie:dodaj zmiksuj nasyp dosyp wsyp
+cytryny:wycisnij pokroj potnij przetnij dodaj
+grejpfrut:oslodz obierz pokroj potnij dokroj przetnij poszatkuj dodaj zmiksuj
+mandarynki:obierz pokroj potnij dokroj przetnij poszatkuj dodaj zmiksuj
+pomarancze:obierz pokroj potnij dokroj przetnij poszatkuj dodaj zmiksuj
+figi:wysusz wsyp dosyp nasyp przesyp posyp dodaj
+granaty:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+mango:obierz pokroj potnij dokroj przetnij poszatkuj dodaj zmiksuj
+migdaly:zgniec zmiazdz wsyp dosyp nasyp przesyp posyp dodaj
+oliwki:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+daktyle:wysusz wsyp dosyp nasyp przesyp posyp dodaj
+kokos:rozbij zmiazdz dodaj wydraz
+agrest:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+aronie:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+borowki:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+jagody:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+jezyna:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+maliny:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+porzeczki:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+winogrona:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+zurawine:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+ananasa:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj obierz
+banany:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj obierz
+poziomki:wsyp dosyp nasyp przesyp dodaj zgniec zmiksuj
+truskawki:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj wsyp dosyp nasyp
+pigwe:pokroj poszatkuj potnij przekroj dokroj dodaj zmiksuj obierz zetrzyj natrzyj utrzyj

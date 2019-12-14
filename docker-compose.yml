@@ -1,0 +1,9 @@
+database:
+  container_name: aliaser-pro-db
+  image: postgres
+  ports:
+    - "5432:5432"
+  environment:
+    POSTGRES_DB: aliaser-pro
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: 1

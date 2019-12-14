@@ -16,4 +16,6 @@ interface RecipeRepository : JpaRepository<Recipe, Int?> {
         @Param("startIndex") startIndex: Int,
         @Param("endIndex") endIndex: Int
     ): List<Recipe>
+
+
 }
