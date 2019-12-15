@@ -3,11 +3,10 @@ package bd.aliaserprointerface;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.HashMap;
 
 public class Recipe {
     public String name;
-    public boolean isVege;
+    public boolean vege;
     public String description;
     String alphabet = "abcdefghijklmnoprstquwxyz";
 
@@ -15,15 +14,15 @@ public class Recipe {
     public Recipe() {
         this.name = createName();
         this.description = createDescription();
-        this.isVege = !((description.contains("kurczaka")||description.contains("wolowine")||description.contains("wieprzowine")|| description.contains("konine")|| description.contains("kozine")|| description.contains("drob") ||description.contains("jagniecina")|| description.contains("cielecina") || description.contains("dziczyzna") || description.contains("baranine") || description.contains("indyka")));
+        this.vege = !((description.contains("kurczaka") || description.contains("wolowine") || description.contains("wieprzowine") || description.contains("konine") || description.contains("kozine") || description.contains("drob") || description.contains("jagniecina") || description.contains("cielecina") || description.contains("dziczyzna") || description.contains("baranine") || description.contains("indyka")));
     }
 
     public boolean isVege() {
-        return isVege;
+        return vege;
     }
 
     public void setVege(boolean vege) {
-        isVege = vege;
+        this.vege = vege;
     }
 
     public String getName() {
@@ -43,7 +42,7 @@ public class Recipe {
     }
 
     public void getRecipe(Recipe recipe) {
-        if (recipe.isVege) {
+        if (recipe.vege) {
             System.out.println("Wegetarianska potrawa o nazwie: " + recipe.getName() + ", przepis: " + recipe.getDescription() + "\n");
         } else
             System.out.println("Miesna potrawa o nazwie: " + recipe.getName() + ", przepis: " + recipe.getDescription() + "\n");

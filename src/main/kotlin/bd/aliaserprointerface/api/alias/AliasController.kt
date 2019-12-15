@@ -1,6 +1,5 @@
 package bd.aliaserprointerface.api.alias
 
-import bd.aliaserprointerface.api.recipe.RecipeController
 import bd.aliaserprointerface.domain.alias.Alias
 import bd.aliaserprointerface.domain.alias.AliasService
 import org.slf4j.LoggerFactory
@@ -20,14 +19,14 @@ class AliasController(val aliasService: AliasService) {
     private val log = LoggerFactory.getLogger(AliasController::class.java)
 
     @PostMapping(ALIAS_BASE_PATH)
-    fun addAlias(@RequestBody alias: Alias): Alias {
+    fun addAlias(@RequestBody alias: Alias) {
         log.info("HTTP method POST\t$ALIAS_BASE_PATH")
-        return aliasService.addAlias(alias)
+        aliasService.addAlias(alias)
     }
 
     @PostMapping(ADD_ALIASES_PATH)
-    fun addAliases(@RequestBody aliases: List<Alias>): List<Alias> {
+    fun addAliases(@RequestBody aliases: List<Alias>) {
         log.info("HTTP method POST\t$ADD_ALIASES_PATH")
-        return aliasService.addAliases(aliases)
+        aliasService.addAliases(aliases)
     }
 }

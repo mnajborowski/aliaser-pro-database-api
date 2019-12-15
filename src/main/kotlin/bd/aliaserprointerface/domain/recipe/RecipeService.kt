@@ -1,16 +1,10 @@
 package bd.aliaserprointerface.domain.recipe
 
 import bd.aliaserprointerface.Generator
-import bd.aliaserprointerface.api.AliaserServiceApi
 import org.springframework.stereotype.Service
 
 @Service
-class RecipeService(
-    val recipeRepository: RecipeRepository,
-    val aliaserService: AliaserServiceApi
-) {
-//    @Value("\${my-security.password}")
-//    lateinit var password: String
+class RecipeService(val recipeRepository: RecipeRepository) {
 
     fun getAllRecipes(): List<Recipe> = recipeRepository.findAll()
 
@@ -30,18 +24,17 @@ class RecipeService(
             Recipe(
                 name = name,
                 description = description,
-                isVege = isVege
+                vege = isVege
             )
         )
 
     fun createRecipe(recipe: Recipe) = recipeRepository.save(recipe)
 
-    fun updateRecipe(id: Int, alias: String) =
-        recipeRepository.save(recipeRepository.getOne(id).copy(description = alias))
+    fun updateRecipe(recipes: List<Recipe>) = recipes.forEach {
+        recipeRepository.save(it)
+    }
 
     fun countTableRecords() = recipeRepository.countTableRecords()
 
     fun getDatabaseSize() = recipeRepository.getDatabaseSize()
-
-    fun checkPassword(password: String) = password == "maslo123"
 }
