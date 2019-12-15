@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.*
 class TestCaseController(val testCaseService: TestCaseService) {
     companion object {
         private const val TEST_CASE_BASE_PATH = "/testcase"
+
+        private const val ADD_TEST_CASES_PATH =
+            "$TEST_CASE_BASE_PATH/all"
     }
 
     private val log = LoggerFactory.getLogger(TestCaseController::class.java)
@@ -18,6 +21,12 @@ class TestCaseController(val testCaseService: TestCaseService) {
     fun addTestCase(@RequestBody testCase: TestCase): TestCase {
         log.info("HTTP method POST\t$TEST_CASE_BASE_PATH")
         return testCaseService.addTestCase(testCase)
+    }
+
+    @PostMapping(ADD_TEST_CASES_PATH)
+    fun addTestCases(@RequestBody testCases: List<TestCase>): List<TestCase> {
+        log.info("HTTP method POST\t$ADD_TEST_CASES_PATH")
+        return testCaseService.addTestCases(testCases)
     }
 
     @GetMapping(TEST_CASE_BASE_PATH)
