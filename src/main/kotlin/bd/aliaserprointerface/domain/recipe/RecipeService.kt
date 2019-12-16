@@ -30,7 +30,7 @@ class RecipeService(val recipeRepository: RecipeRepository) {
 
     fun createRecipe(recipe: Recipe) = recipeRepository.save(recipe)
 
-    fun updateRecipe(recipes: List<Recipe>) = recipes.forEach {
+    fun updateRecipes(recipes: List<Recipe>) = recipes.forEach {
         recipeRepository.save(it)
     }
 
