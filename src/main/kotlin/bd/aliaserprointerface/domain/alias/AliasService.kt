@@ -7,4 +7,6 @@ class AliasService(val aliasRepository: AliasRepository) {
     fun addAlias(alias: Alias) = aliasRepository.save(alias)
 
     fun addAliases(aliases: List<Alias>) = aliasRepository.saveAll(aliases)
+
+    fun deleteAlias(alias: String) = aliasRepository.deleteAliasByAlias(alias)
 }

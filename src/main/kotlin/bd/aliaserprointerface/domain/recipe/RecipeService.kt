@@ -30,8 +30,11 @@ class RecipeService(val recipeRepository: RecipeRepository) {
 
     fun createRecipe(recipe: Recipe) = recipeRepository.save(recipe)
 
-    fun updateRecipes(recipes: List<Recipe>) = recipes.forEach {
-        recipeRepository.save(it)
+    fun replaceWithAliases(recipes: List<Recipe>): List<Recipe> = recipeRepository.saveAll(recipes)
+
+    fun updateAlias(id: Int, alias: String) {
+        val recipe = recipeRepository.getOne(id)
+        recipeRepository.save(recipe.copy(description = "#$alias"))
     }
 
     fun countTableRecords() = recipeRepository.countTableRecords()

@@ -4,4 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface AliasRepository : JpaRepository<Alias, Int?>
+interface AliasRepository : JpaRepository<Alias, Int?> {
+
+    fun deleteAliasByAlias(alias: String)
+}

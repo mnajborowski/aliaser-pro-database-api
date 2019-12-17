@@ -5,7 +5,7 @@ import javax.persistence.*
 @Entity
 data class Recipe(
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int? = null,
     val name: String,
     val vege: Boolean,

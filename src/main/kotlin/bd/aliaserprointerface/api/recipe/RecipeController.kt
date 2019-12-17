@@ -23,6 +23,8 @@ class RecipeController(val recipeService: RecipeService) {
             "$RECIPES_BASE_PATH/count"
         private const val REPLACE_WITH_ALIASES_PATH =
             "$RECIPES_BASE_PATH/replace"
+        private const val UPDATE_ALIAS_PATH =
+            "$RECIPES_BASE_PATH/update"
     }
 
     private val log = LoggerFactory.getLogger(RecipeController::class.java)
@@ -58,14 +60,23 @@ class RecipeController(val recipeService: RecipeService) {
     @PostMapping(CREATE_RECIPE_PATH)
     fun createRecipe(@RequestBody recipe: Recipe): Recipe {
         log.info("HTTP method POST\t$CREATE_RECIPE_PATH")
-        log.info("${recipe.name}\t${recipe.description}\t${recipe.vege}")
+        log.info("Name: ${recipe.name}\tDescription: ${recipe.description}\tVege: ${recipe.vege}")
         return recipeService.createRecipe(recipe)
     }
 
     @PostMapping(REPLACE_WITH_ALIASES_PATH)
-    fun updateRecipe(@RequestBody recipes: List<Recipe>) {
+    fun updateRecipes(@RequestBody recipes: List<Recipe>) {
         log.info("HTTP method POST\t$REPLACE_WITH_ALIASES_PATH")
-        recipeService.updateRecipe(recipes)
+        recipeService.replaceWithAliases(recipes)
+    }
+
+    @PutMapping(UPDATE_ALIAS_PATH)
+    fun updateAlias(
+        @RequestParam(name = "id") id: Int,
+        @RequestParam(name = "alias") alias: String
+    ) {
+        log.info("HTTP method PUT\t$UPDATE_ALIAS_PATH")
+        recipeService.updateAlias(id, alias)
     }
 
     @GetMapping(COUNT_TABLE_RECORDS)

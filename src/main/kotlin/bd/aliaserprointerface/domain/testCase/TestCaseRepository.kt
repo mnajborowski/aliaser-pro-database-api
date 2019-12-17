@@ -8,8 +8,10 @@ import org.springframework.stereotype.Repository
 interface TestCaseRepository : JpaRepository<TestCase, Int?> {
 
     @Query("""
-        select top(1) * from test_case
-        where status = 1
+        select * from test_case
+        where status = 0
+        order by id
+        limit 1;
     """, nativeQuery = true)
     fun getFirstReadyTestCase(): TestCase
 }
