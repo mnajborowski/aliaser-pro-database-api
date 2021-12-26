@@ -1,5 +1,5 @@
 # aliaser-pro-database-api
-Aliaser-PRO is an application created for the purpose generating aliases for repeating text values
+Aliaser-PRO is an application created for the purpose of generating aliases for repeating text values
 stored in the database. This way the database size gets smaller, while the application joins
 initial text values by assigned aliases when fetched from the database.
 
